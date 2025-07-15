@@ -19,8 +19,8 @@ const corsOptions = {
   origin: [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
-    'https://abdishakurblogs.vercel.app/', // Add your actual Vercel URL
-    'https://*.vercel.app', // Allow all Vercel preview deployments
+    'https://abdishakurblogs.vercel.app', // ✅ NO trailing slash
+    /\.vercel\.app$/,                      // ✅ regex to allow all Vercel preview URLs
   ],
   credentials: true,
   optionsSuccessStatus: 200,
