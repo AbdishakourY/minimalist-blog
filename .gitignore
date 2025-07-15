@@ -4,6 +4,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#new ignore
+/node_modules
+/.next
+/dist
+
+
 # Environment variables
 .env
 .env.local
