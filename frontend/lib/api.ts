@@ -26,7 +26,7 @@ export type ApiResponse<T> = {
 }
 
 // Use environment variable or fallback to localhost
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://minimalist-blog-backend.onrender.com" // prev it was http://localhost:5001/api
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://minimalist-blog-backend.onrender.com/api"
 
 async function fetchWithTimeout(url: string, options: RequestInit = {}, timeout = 10000): Promise<Response> {
   const controller = new AbortController()
