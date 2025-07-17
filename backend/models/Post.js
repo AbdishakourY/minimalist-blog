@@ -39,7 +39,7 @@ const postSchema = new mongoose.Schema({
   }],
   published: {
     type: Boolean,
-    default: false
+    default: true
   },
   publishedAt: {
     type: Date,
