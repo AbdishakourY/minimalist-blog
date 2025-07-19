@@ -25,7 +25,7 @@ export type ApiResponse<T> = {
   }
 }
 
-// Use environment variable or fallback to localhost
+// Use environment variable or fallback to localhost. code below
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://minimalist-blog-backend.onrender.com/api"
 
 async function fetchWithTimeout(url: string, options: RequestInit = {}, timeout = 10000): Promise<Response> {
