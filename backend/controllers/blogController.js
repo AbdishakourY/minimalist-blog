@@ -114,7 +114,7 @@ export const createPost = async (req, res) => {
       content,
       author: author || 'Anonymous',
       tags: tags || [],
-      published: published || false
+      published: published || true
     });
 
     const savedPost = await post.save();
