@@ -20,7 +20,7 @@ export function PostEditor({ post, onSave, onCancel }: PostEditorProps) {
     content: "",
     author: "",
     tags: [] as string[],
-    published: false,
+    published: true,
   })
   const [tagInput, setTagInput] = useState("")
   const [saving, setSaving] = useState(false)
@@ -35,7 +35,7 @@ export function PostEditor({ post, onSave, onCancel }: PostEditorProps) {
         content: post.content,
         author: post.author,
         tags: post.tags,
-        published: post.published || false,
+        published: post?.published ?? true,
       })
     }
   }, [post])
