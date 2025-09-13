@@ -1,0 +1,12 @@
+# render.yaml (place at repo root)
+services:
+  - type: web
+    name: mern-app
+    env: node
+    branch: main
+    buildCommand: |
+      # install and build React
+      cd client && npm ci && npm run build
+      # install server deps
+      cd ../server && npm ci
+    startCommand: cd server && npm start
