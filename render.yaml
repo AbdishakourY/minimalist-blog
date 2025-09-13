@@ -1,12 +1,12 @@
-# render.yaml (place at repo root)
 services:
   - type: web
-    name: mern-app
+    name: minimalist-blog
     env: node
     branch: main
     buildCommand: |
-      # install and build React
-      cd client && npm ci && npm run build
-      # install server deps
-      cd ../server && npm ci
-    startCommand: cd server && npm start
+      cd frontend && npm install && npm run build
+      cd ../backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
