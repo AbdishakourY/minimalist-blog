@@ -1,8 +1,8 @@
 # 📝 Minimalist Blog Platform
 
 Hey there 👋 and welcome!  
-This is a little **side project** I hacked together while I was traveling ✈️.  
-I got to the airport way too early, got bored, and instead of doom-scrolling TikTok — I decided to spin up a blogging platform. So here it is: **a clean, minimalist blog with an admin dashboard**.  
+This is a little **side project** I built while I was traveling ✈️.  
+I got to the airport way too early, got bored, and instead of doom-scrolling Instagram, I decided to spin up a minimalistic blogging platform. So here it is: **a clean, minimalist blog with an admin dashboard**.  
 
 Built with ❤️ using:
 - **Frontend:** Next.js 14 (App Router) + TypeScript
