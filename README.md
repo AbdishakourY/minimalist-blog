@@ -17,7 +17,7 @@ Built with ❤️ using:
 - Password-protected admin dashboard
 - Create, edit, delete posts
 - Responsive, minimalist design
-- Deployed and ready to go
+- ready to go :)
 
 ## 📂 Project Structure
 ```bash
