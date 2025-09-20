@@ -10,8 +10,6 @@ Built with ❤️ using:
 - **Database:** MongoDB Atlas
 - **Deployment:** Vercel (frontend) & Render (backend)
 
----
-
 ## 🚀 Features
 - Browse published blog posts
 - View single posts by slug
@@ -20,8 +18,6 @@ Built with ❤️ using:
 - Create, edit, delete posts
 - Responsive, minimalist design
 - Deployed and ready to go
-
----
 
 ## 📂 Project Structure
 ```bash
