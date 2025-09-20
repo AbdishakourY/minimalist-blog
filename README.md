@@ -1,26 +1,46 @@
 # 📝 Minimalist Blog Platform
 
-A full-stack **blogging platform** built with:
-- **Frontend:** Next.js 14 (App Router) + TypeScript
-- **Backend:** Node.js + Express (hosted on Render)
-- **Database:** MongoDB (Atlas)
-- **Deployment:** Vercel (frontend) & Render (backend)
+Hey there 👋 and welcome!  
+This is a little **side project** I hacked together while I was traveling ✈️.  
+I got to the airport way too early, got bored, and instead of doom-scrolling TikTok — I decided to spin up a blogging platform. So here it is: **a clean, minimalist blog with an admin dashboard**.  
 
-Includes:
-- Public blog with SEO-friendly routes (`/posts/[slug]`)
-- Admin dashboard for managing posts
-- Secure login via environment-based admin password
-- Tag filtering, search, and reading time display
+Built with ❤️ using:
+- **Frontend:** Next.js 14 (App Router) + TypeScript
+- **Backend:** Node.js + Express + MongoDB
+- **Database:** MongoDB Atlas
+- **Deployment:** Vercel (frontend) & Render (backend)
 
 ---
 
 ## 🚀 Features
-- View all published blog posts
-- View single post by slug
-- Search posts by keyword
-- Filter posts by tag
-- Admin dashboard for CRUD (create, update, delete) operations
-- Password-protected admin login
-- Deployed backend & frontend with proper CORS setup
+- Browse published blog posts
+- View single posts by slug
+- Search & filter posts by tags
+- Password-protected admin dashboard
+- Create, edit, delete posts
+- Responsive, minimalist design
+- Deployed and ready to go
 
 ---
+
+## 📂 Project Structure
+```bash
+.
+├── app/               # Next.js App Router pages (frontend)
+├── components/        # Reusable UI components
+├── hooks/             # Custom React hooks
+├── lib/               # Frontend API client
+├── public/            # Static assets
+├── styles/            # Global & module CSS
+
+├── backend/           # Express backend
+│   ├── controllers/   # Request handlers
+│   ├── middleware/    # Middlewares (validation, auth, etc.)
+│   ├── models/        # Mongoose models
+│   ├── routes/        # Express routes
+│   ├── scripts/       # Utility scripts
+│   └── utils/         # Helper functions
+│
+├── server.js          # Main backend entrypoint
+├── server-test.js     # Test server (local/dev)
+└── README.md
